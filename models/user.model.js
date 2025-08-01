@@ -11,6 +11,6 @@ let userSchema = mongoose.Schema({
 
 
 
-let studentModel = mongoose.model("contacts", userSchema);
+let userModel = mongoose.model("contacts", userSchema);
 
-module.exports = studentModel
+module.exports = userModel

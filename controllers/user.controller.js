@@ -19,7 +19,7 @@ const sendMail = async (req, res) => {
 
   var mailOptions = {
     from: "abioladave24@gmail.com",
-    to: "odesomiad.19@student.funaab.edu.ng, abioladave24@gmail.com",
+    to: `odesomiad.19@student.funaab.edu.ng, abioladave24@gmail.com`,
     subject: "Sending Email using Node.js",
     html: `<div><h3>Name: ${Name}</h3></div><div>
     <h3>Email: ${email}</h3></div>
